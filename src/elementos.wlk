@@ -1,7 +1,7 @@
 class Hogar{
 	var property mugre 
 	var property confort = 0
-	method esBueno()= confort >= mugre/2
+	method esBueno()= confort/2 <= mugre
 	
 }
 

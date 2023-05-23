@@ -3,6 +3,9 @@ import elementos.*
 class Barrio {
 	const property barrio = []
 	
+	method agregarElemento(elem) = barrio.add(elem)
+	method sacarElemento(elem) = barrio.remove(elem)
+	
 	method cantidadBuenos() = barrio.count({e => e.esBueno()})
 	method cantidadNoBuenos() = barrio.count({e => !e.esBueno()})
 	
